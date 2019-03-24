@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 #loading the haar cascade training file.
-face_cascade = cv.CascadeClassifier('D:\My Code\Python\haarcascade_frontalface_default.xml')
+face_cascade = cv.CascadeClassifier('Face_Detection/haarcascade_frontalface_default.xml')
 
 #choosing our image file.
 img = cv.imread('Face_Detection/NASA.jpg')
