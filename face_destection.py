@@ -5,7 +5,7 @@ import numpy as np
 face_cascade = cv.CascadeClassifier('D:\My Code\Python\haarcascade_frontalface_default.xml')
 
 #choosing our image file.
-img = cv.imread('NASA.jpg')
+img = cv.imread('Face_Detection/NASA.jpg')
 
 #converting the image to gray scale because cv2 only works with gray.
 gray_img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
